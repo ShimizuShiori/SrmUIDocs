@@ -59,7 +59,7 @@ public class SecurityPermissionDefinitionProvider implements PermissionDefinitio
 - 所有的 **PermissionDefinitionProvider** 实现类都必须名称各不相同，因此建议以 Permissions 的作用域加开头，如 **SecurityPermissionDefinitionProvider**
 - 请不要往 **permissionCollection** 中添加 Code 重复的权限。因为这将会使得后添加的权限无法持久化，并且我们无法精确的控制所有 **PermissionDefinictionProvider** 进行持久化的顺序
 
-1. 修改你在 **@Import()** 中的配置类，使得它在 **@Componentcan** 时，可以对你的 **providers**包进行扫描，示例代码如下：
+1. 修改你在 **@Import()** 中的配置类，使得它在 **@ComponentScan** 时，可以对你的 **providers**包进行扫描，示例代码如下：
 ```java
 // HelloConfig.java
 package com.dexi.hello;
