@@ -18,7 +18,7 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 
 | name | type | descr |
 |------|------|-------|
-| gridOptions | [DridOptionObject] | unkonw |
+| gridOptions | [DridOptionObject] | 用于构建 *ag-grid* 的参数 |
 | operations | [OperationObject][OperationObject][] | 操作按钮 |
 | columnDefs | [ColumnDefObject](#columndefobject)[] | 列定义 |
 | rowData | object[] | 需要显示的数据行 |
