@@ -9,6 +9,7 @@
 ## 2. 路径
 
 ```
+webapp\app\component\BaseList.vue
 ```
 
 ## 3. 组件信息
