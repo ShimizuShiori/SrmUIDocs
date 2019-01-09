@@ -9,6 +9,8 @@
 * [NicetyField](./Components/NicetyField.md)
 * [NicetyDialog](./Components/NicetyDialog.md)
 * [SrmBaseList](./Components/SrmBaseList.md)
+* [NicetyUploader](./Components/NicetyUploader.md)
+  * [ ] 列出所有事件的含义和参数
 
 
 ---
