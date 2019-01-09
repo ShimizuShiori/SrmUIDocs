@@ -113,6 +113,7 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 | name | descr |
 |------|-------|
 | [ActionRender](./ActionRender.md) | 在单元格内渲染按钮的渲染器 |
+| [RouteLinkRender](./RouteLinkRender.md) | 在单元格里渲染路由链接的渲染器 |
 
 ---
 
