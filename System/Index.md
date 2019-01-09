@@ -7,4 +7,4 @@
 3. [作业](./Subjects/开发定期作业.md)
 
 ---
-[首页](./README.md)
+[首页](../README.md)
