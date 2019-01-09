@@ -8,6 +8,7 @@
 * [NicetyFields](./Components/NicetyFields.md)
 * [NicetyField](./Components/NicetyField.md)
 * [NicetyDialog](./Components/NicetyDialog.md)
+* [SrmBaseList](./Components/SrmBaseList.md)
 
 
 ---
