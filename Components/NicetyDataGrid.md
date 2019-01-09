@@ -20,7 +20,7 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 |------|------|-------|
 | gridOptions | [DridOptionObject] | unkonw |
 | operations | [OperationObject][OperationObject][] | 操作按钮 |
-| columnDefs | Array | 列定义 |
+| columnDefs | [ColumnDefObject](#columndefobject)[] | 列定义 |
 | rowData | object[] | 需要显示的数据行 |
 | pageSizes | number[] | 可用的分页数 |
 | pageSize | number | 默认的分页数 |
