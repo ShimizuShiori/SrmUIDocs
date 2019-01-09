@@ -76,7 +76,7 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 | headerName | string | 列抬头 |
 | field | string | 该列显示的字段 |
 | valueFormatter | [ValueFormatterFunc](#valueformatterfunc) | 值格式化方法 |
-| renderType | string | 渲染内容 |
+| renderType | string | 渲染内容，详见 [附二](#f2) |
 | getProps | [getPropsFunc](#getpropsfunc) | 对渲染内容的 props 提供值的方法 |
 
 ### ValueFormatterFunc
@@ -107,7 +107,7 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 |------|------|-------|
 | rowData | object | 数据行 |
 
-## 附二. 可用的 renderType 
+## <b id="f2"></b> 附二. 可用的 renderType 
 
 
 | name | descr |
