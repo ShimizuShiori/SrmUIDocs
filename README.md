@@ -1,3 +1,3 @@
-# Srm UI Document
+# Srm Document
 
-[View Detail](./index.md)
+[UI Documents](./UI/index.md)
