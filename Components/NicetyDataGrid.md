@@ -38,7 +38,8 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 
 当由 *opertations* 生成的按钮被点击后触发的事件。
 
-事件参数 :
+事件参数
+
 | name | type | descr |
 |------|------|-------|
 | actionType | string | 对应 [OperationObject] 中的 *display*  |
