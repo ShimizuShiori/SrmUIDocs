@@ -30,7 +30,18 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 
 ### 3.2 api
 
-该组件没有外部需要关心的 api
+#### 3.2.1 select
+
+参数是一个 filter 的回调函数
+
+该函数接受一个参数表示行数据，返回true/false表示是否选中
+
+示例如下
+
+```javascript
+// 选择 id = 3 的数据行
+this.$refs.grid.select(x => x.id === 3);
+```
 
 ### 3.3 events
 
