@@ -32,6 +32,8 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 
 #### 3.2.1 select
 
+用于在界面上显示出选中数据样的外观
+
 参数是一个 filter 的回调函数
 
 该函数接受一个参数表示行数据，返回true/false表示是否选中
@@ -39,7 +41,7 @@ webapp\nicety\src\components\DataGrid\src\DataGrid.vue
 示例如下
 
 ```javascript
-// 选择 id = 3 的数据行
+// 选中 id = 3 的数据行
 this.$refs.grid.select(x => x.id === 3);
 ```
 
