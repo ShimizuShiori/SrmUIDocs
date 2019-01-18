@@ -6,5 +6,7 @@
 
 3. [作业](./Subjects/开发定期作业.md)
 
+4. [通知](./Subjects/Notice.md)
+
 ---
 [首页](../README.md)
