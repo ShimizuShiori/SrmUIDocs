@@ -121,6 +121,17 @@ setCheckedKeys(keys: string[], leafOnly: boolean) {}
 
 #### 3.3.7 node-expand
 
+#### 3.3.8 node-click
+
+表示节点被点击后的事件，回调函数中有三个参数
+
+| Sn | Type | Description |
+|---|---|---|
+| 0 | Object | 被点击的节点所对应的数据 |
+| 1 | [NodeObject] | 被点击的节点 |
+| 2 | Object | Vue 实例 |
+
+
 ### 3.4 slots
 
 ---
@@ -150,8 +161,31 @@ declare interface TreeDataProps{
 }
 ```
 
+<b id="NodeObject"></b>
+### NodeObject
+| Name | Type | Description |
+|---|---|---|
+| checked | Boolean | 节点是否选中 |
+| childrenNodes | [NodeObject](#NodeObject)[] | 子节点 |
+| data | Object | 对应的数据 |
+| expanded | Boolean | 节点是否展开 |
+| id | Number | 节点编号 |
+| indeterminate | Boolean | Unknow |
+| isLeaf | Boolean | 是否叶子节点 |
+| level | Number | 深度 |
+| loaded | Boolean | Unknow |
+| loading | Boolean | Unknow |
+| parent | [NodeObject] | 父节点 |
+| store | Object | Vue 状态 |
+| text | Unknow | Unknow |
+| visible | Boolean | 可见性 |
+| disabled | Boolean | 是否禁用 |
+| key | String<br/>Number | 节点数据所对应的 nodeKey 的值 |
+| label | String | 节点显示的文本 |
+
 ---
 
 [返回首页][back]
 
 [back]: ../index.md#
+[NodeObject]: #NodeObject
