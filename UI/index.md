@@ -10,6 +10,7 @@
 * [NicetyDialog](./Components/NicetyDialog.md)
 * [SrmBaseList](./Components/SrmBaseList.md)
 * [NicetyUploader](./Components/NicetyUploader.md)
+* [NicetyTree](./Components/NicetyTree.md)
 
 # TODO-List
 
